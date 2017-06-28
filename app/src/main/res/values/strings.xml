@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">JEE复习题</string>
+    <string name="last_question">上一题</string>
+    <string name="next_question">下一题</string>
+</resources>

@@ -1,0 +1,287 @@
+﻿问题1: Hibernate的主要核心技术是。（ ）
+A.有自己的数据库操作语言
+B.ORM对象关系映射，让对象同数据库表产生关系
+C.数据库连接
+D.数据库操作
+答案：B
+
+问题2: Spring的主要技术思想是（ ）。
+A.Spring Web
+B.Spring DAO
+C.Spring ORM
+D.Spring IoC和AOP
+答案：D
+
+问题3: Struts框架除了要配置struts.xml外，还要下面哪一个配置文件？（ ）
+A.web.xml
+B.不需要
+C.applicationContext.xml
+D.hibernate.cfg.xml
+答案：A
+
+问题4: 校验器属于下面哪一个框架的技术。（ ）
+A.都不是
+B.Hibernate
+C.Spring
+D.Struts
+答案：D
+
+问题5: 下面关于EL表达式用法错误的是( )。
+A.$(sessionScope.user{sex})
+B.$(sessionScope.user.sex)
+C.$(sessionScope.user["sex"])
+D.$(sessionScope.user[sex])
+答案：A
+
+问题6 : 通常，struts2中的用户自定义action类会继承下面哪一个类？（ ）
+A.Action
+B.SystemAction
+C.ActionSupport
+D.HttpServlet
+答案：C
+
+问题7: Action默认的调用方法是？（ ）
+A.check()
+B.login（）
+C.execute()
+D.action()
+答案：C
+
+问题8: 要使用Struts标签库，必须在JSP文件中定义的语句是（ ）。
+A.<%@page language="java" struts="taglib" %>
+B.<%@taglib prefix="s" uri="/struts-tags" %>
+C.$(sessionScope.user.sex)
+D.<% page language="struts-tags" %>
+答案：B
+
+问题9: hibernate的Transaction接口主要用于数据库的事务管理，下面哪个方法是用来提交一个数据库的操作。（ ）
+A.isActive()
+B.wasCommitted()
+C.commit()
+D.wasRollback()
+答案: C
+
+问题10：Spring操作数据库的添加，修改，删除是通过下面哪个类的接口？（ ）
+A.sessionFactory
+B.jdbcTemplate
+C.Session
+D.hibernateTemplate
+答案: B
+
+问题11：Hibernate持久化对象在执行下面哪个操作时会进入临时状态？( )
+A.evit()
+B.delete()
+C.close()
+D.clear()
+答案: B
+
+问题12：下列关于Hibernate的说法错误的是（ ）。
+A.hbm.xml文件是Hibernate的映射配置文件，一个hbm.xml文件对应一个JavaBean
+B.使用Hibernate的一个非常重要的原因是不用写SQL数据库语言来访问数据库
+C.使用hibernate可以不要编写数据库连接的Java代码
+D.Hibernate是一种主流的ORM映射框架
+答案: B
+
+问题13：如果要在Action类中实现间接访问Servlet API，例如request, response，session, application 的对象，可通过下面那个接口来实现。（ ）
+A.SessionAware
+B.ServletActionContext
+C.ServletRequestAware
+D.ActionContext
+答案: B
+
+问题14：Spring的底层实现（尤其是IoC）使用了大量的Java反射机制，通过Java反射的包java.lang.reflect，主要包含Class、Field、Method、Constrator等类，一种运行时获取和改变对象状态及属性的相关API。下面哪一个说法是错误的。（ ）
+A.在运行时创建新类
+B.在运行时调用任一个对象的方法
+C.在运行时给类添加新的方法
+D.在运行时判断一个类的成员变量和方法
+答案: C
+
+问题15：EL表达式和OGNL 的区别，下面说法是错误的( )。
+A.OGNL表达式可以访问对象的属性，但不能访问set，map和list复杂数据类型
+B.OGNL是通常要结合Struts 2的标签一起使用
+C.OGNL表达式与JSP的 EL表达式都是用来访问数据
+D.EL表达式可以直接访问Servlet对象
+答案： A
+
+问题16：以下关于Hibernate说法正确的是（ )。
+A.Hibernate不要JDBC的支持
+B.Hibernate是ORM的一种实现方式
+C.是EJB的一种实现方式
+D.属于控制层
+答案： B
+
+问题17： applicationContext.xml是哪一个框架的主要配置文件？( )
+A.都不是
+B.Hibernate
+C.Spring
+D.Struts
+答案： C
+
+问题18：下面哪一个不能在struts.xml配置？( )
+A.过滤器
+B.默认拦截器
+C.action
+D.拦截器
+答案： A
+
+问题19：下面不属于action接口中定义的字符串常量是？（ ）
+A.ERROR
+B.SUCCESS
+C.LOGIN
+D.FAILURE
+答案： D
+
+问题20：下面那一项不是STRUTS 2框架主要技术支持。( )
+A.输入校验
+B.数据注入
+C.数据类型转换
+D.国际化
+答案： B
+
+问题21：如果定义了国际化资源文件名是msg_zh_CN.properties，那么在struts.xml定义国际化资源里面的value值是（ ）。
+A.msg
+B.zh
+C.zh_CN
+D.CN
+答案： A
+
+问题22：Hibernate框架主要有四个类来操作持久化类映射数据库，下面哪一个类是数据库进行添加\修改\删除提供接口方法。( )
+A.SessionFactory
+B.Session
+C.Transaction
+D.Configuration
+答案： B
+
+问题23：Hibernate的持久化对象有三种状态，下面哪一个不属于这个状态。( )
+A.持久化状态
+B.临时状态
+C.游离状态
+D.缓存状态
+答案： D
+
+问题24：hibernate的主配置文件中，下面哪个叙述是错误的？（ ）
+A.是配置文件的根标签
+B.用来指定映射文件的路径
+C.定义一个会话工厂来创建一个session对象
+D.定义数据库的连接参数
+答案： C
+
+问题25：Spring依赖注入通常有三种方式，下面哪一个是错误的依赖注入。( )
+A.属性注入（Setter injection）
+B.构造注入（Constructor injection）
+C.注释注入（Annotation injection）
+D.接口注入（Interface injection）
+答案： C
+
+问题26：关于Struts的Action哪一个是错误的。( )
+A.Action必须重写execute()方法
+B.Action 必须有setter和getter方法
+C.Action可以定义自己的方法
+D.Action必须继承ActionSupport类
+答案： D
+
+问题27：Spring的IoC容器的依赖注入有多种方式，下面哪一个说法是错误的。（ ）
+A.构造注入
+B.不可以注入set，map，list复杂类型
+C.接口注入
+D.属性注入
+答案： B
+
+问题28：下面哪一个不是OGNL表达式使用的符号? ( )
+A.#
+B.%
+C.$
+D.@
+答案： D
+
+问题29：Struts2自定义拦截器需要重写下面哪些方法？（ ）
+A.intercept()
+B.init()和intercept()
+C.A和C
+D.init()和destroy()
+答案： C
+
+问题30：下面描述Struts2拦截器是错误的。（ ）
+A.Struts2提供了丰富的默认系统拦截器
+B.拦截器栈，它是将使用的拦截器定义到共有的状态下来实现统一管理，这样在package中就可以做到公共拦截器的共享
+C.Struts拦截器主要用来拦截Action方法，如果需要拦截其它方法，要使用Spring的AOP
+D.Struts2的拦截器配置文件struts.xml必须继承系统默认的拦截器配置文件struts-default.xml
+答案： C
+
+问题31：Spring的IoC容器并不是都可以配置所有的Java类,只能配置简单的bean类。（ ）
+A.真
+B.假
+
+
+答案：B
+
+问题32：创建strtus2的配置文件struts.xml, 放在项目src下。( )
+A.真
+B.假
+
+
+答案：A
+
+问题33：BeanFactory接口和ApplicationContext接口都可以代表Spring容器。（ ）
+A.真
+B.假
+
+
+答案：A
+
+问题34：IoC和DI的名称不一样，但是他们的含义是相同的 。( )
+A.真
+B.假
+
+
+答案：A
+
+问题35：singleton的作用域是在spring IOC容器中仅存在一个Bean实例,Bean以单实例的方式存在。（ ）
+A.真
+B.假
+
+
+答案：A
+
+问题36：Spring的IoC容器可以配置所有的Java类，但是，必须给类的所有属性加Setter方法。( )
+A.真
+B.假
+
+
+答案：A
+
+问题37：Struts2内置类型转换功能是自动实现的。（ ）
+A.真
+B.假
+
+
+答案：A
+
+问题38：Hibernate框架有自己的查询语言HQL，必须通过createQuery(HQL)创建查询对象执行数据查询。（ ）
+A.真
+B.假
+
+
+答案：A
+
+问题39：Struts 2的自定义拦截器的intercept(ActionInvocation invocation)方法中，可调用invocation参数对象的invoke方法将执行控制权转给下一个拦截器，或者转给Action的execute方法。（ ）
+A.真
+B.假
+
+
+答案：A
+
+问题40： ApplicationContext是BeanFactory的子接口，通常使BeanFactory代表容器。（ ）
+A.真
+B.假
+
+
+答案：B
+
+问题41：Prototype作用域是每次从容器中调用getBean()时,都返回一个新的实例,每一个新实例对象都是一样的。（ ）
+A.真
+B.假
+
+
+答案：B
+
